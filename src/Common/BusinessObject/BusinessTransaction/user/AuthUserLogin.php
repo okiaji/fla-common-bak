@@ -2,6 +2,7 @@
 namespace FLA\Common\BusinessObject\BusinessTransaction\user;
 
 use FLA\Common\BusinessObject\BusinessFunction\role\FindDefaultUserRoleByUserId;
+use FLA\Common\BusinessObject\BusinessFunction\user\IsTokenExists;
 use FLA\Common\BusinessObject\BusinessFunction\user\IsUserExistsForLogin;
 use FLA\Common\CommonExceptionsConstant;
 use FLA\Common\Model\UserLoggedInfo;
