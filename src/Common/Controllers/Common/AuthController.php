@@ -1,5 +1,5 @@
 <?php
-namespace App\Http\Controllers\App\Common;
+namespace FLA\Controllers\Common;
 
 use FLA\Common\BusinessObject\BusinessFunction\user\GetUserInfoByToken;
 use FLA\Common\BusinessObject\BusinessTransaction\user\AuthUserLogin;

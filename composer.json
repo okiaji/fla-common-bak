@@ -21,7 +21,8 @@
     },
 	"autoload": {
         "psr-4": {
-            "FLA\\": "src"
+            "FLA\\": "src",
+            "FLA\\Controller\\": "src/Common/Controllers"
         }
     },
     "extra": {
