@@ -2,6 +2,7 @@
 namespace FLA\Common\Middleware;
 
 use FLA\Common\BusinessObject\BusinessFunction\user\IsTokenExists;
+use FLA\Core\Middleware\AbstractMiddleware;
 
 class VerifyUserLoggedMiddleware extends AbstractMiddleware
 {

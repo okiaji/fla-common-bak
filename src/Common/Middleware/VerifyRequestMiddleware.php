@@ -3,6 +3,7 @@ namespace FLA\Common\Middleware;
 
 use FLA\Common\BusinessObject\BusinessFunction\user\FindUserByToken;
 use FLA\Common\BusinessObject\BusinessFunction\user\ValTokenIsExists;
+use FLA\Core\Middleware\AbstractMiddleware;
 
 class VerifyRequestMiddleware extends AbstractMiddleware
 {
