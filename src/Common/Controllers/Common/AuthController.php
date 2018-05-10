@@ -55,18 +55,8 @@ class AuthController extends BaseControllers
     {
         $destroyUserLogin = new DestroyUserLogin();
         $destroyUserLogin->execute([
-            'userToken' => $_COOKIE['FLA-TOKEN']
+            'userToken' => $request->header('FLA-TOKEN')
         ]);
-
-        if (isset($_SERVER['HTTP_COOKIE'])) {
-            $cookies = explode(';', $_SERVER['HTTP_COOKIE']);
-            foreach($cookies as $cookie) {
-                $parts = explode('=', $cookie);
-                $name = trim($parts[0]);
-                setcookie($name, '', time()-1000);
-                setcookie($name, '', time()-1000, '/');
-            }
-        }
 
         return response()->json([
             'status' => CommonConstant::$OK
