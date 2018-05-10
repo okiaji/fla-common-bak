@@ -1,0 +1,34 @@
+{
+    "name": "cong/fla-common",
+    "description": "Common library for FLA Framework",
+    "keywords": ["framework", "common", "cong", "fla", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cong",
+            "email": "cokycongky@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.0",
+        "illuminate/routing": "~5",
+        "illuminate/database": "~5",
+        "ramsey/uuid": "~3.0",
+        "jenssegers/agent": "^2.6",
+        "cong/fla-core": "0.1.x-dev"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "7.0.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "FLA\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
