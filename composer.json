@@ -13,8 +13,6 @@
     "require": {
 		"php": ">=7.0",
         "illuminate/routing": "~5",
-        "illuminate/database": "~5",
-        "ramsey/uuid": "~3.0",
         "jenssegers/agent": "^2.6",
         "cong/fla-core": "0.1.x-dev"
     },

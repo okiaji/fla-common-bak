@@ -7,11 +7,11 @@ use FLA\Common\BusinessObject\BusinessTransaction\role\AddRole;
 use FLA\Common\BusinessObject\BusinessTransaction\role\EditRole;
 use FLA\Common\BusinessObject\BusinessTransaction\role\RemoveRole;
 use FLA\Common\CommonConstant;
-use FLA\Core\AbstractControllers;
+use FLA\Core\BaseControllers;
 use FLA\Core\CoreException;
 use Illuminate\Http\Request;
 
-class RoleController extends AbstractControllers
+class RoleController extends BaseControllers
 {
 
     public function addRole(Request $request) {
